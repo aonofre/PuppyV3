@@ -1,0 +1,386 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adapter.Fragment.MascotaDetalleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/harry"
+            app:civ_border_color="#EEEEEE" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Harry"
+            android:textSize="@dimen/padding_Desc" />
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:columnCount="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="7"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="1"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="4"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="2"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="8"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="5"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="6"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="3"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_Detalle"
+                android:background="@layout/border"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cvFoto9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorButtonNormal"
+                    android:padding="6dp"
+                    android:src="@drawable/harry" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/cvRanking9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:text="9"
+                        android:textSize="18dp" />
+
+                    <ImageView
+                        android:id="@+id/cvYhueso9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/my_actionbar_elevation"
+                        android:src="@drawable/hueso_amarillo" />
+                </LinearLayout>
+            </LinearLayout>
+        </GridLayout>
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Puppy</string>
+    <string name="title_activity_main22">Main2Activity2</string>
+    <string name="opcContact">Contacto</string>
+    <string name="opcAbout">Acerca de</string>
+    <string name="DeveloperName">Alejandro Onofre Ángeles</string>
+    <string name="DeveloperCarrier">Ingeniero en Computación</string>
+    <string name="DeveloperClass">Arquitecto de software</string>
+    <string name="DeveloperCurso1">Diplomado en Desarrollo de aplicaciones iOS</string>
+    <string name="DeveloperCurso1Lugar">MobileStudio</string>
+    <string name="DeveloperCurso2">Diplomado en Java para Sistemas de Negocios en Web</string>
+    <string name="DeveloperCurso2Lugar">(ITESM) Campus Ciudad de México</string>
+    <string name="DeveloperCurso3">.NET Habilitación Tecnológica</string>
+    <string name="DeveloperCurso3Lugar">CrossHorizons</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Correo">Correo</string>
+    <string name="Comentario">Comentario</string>
+    <string name="Enviar">Enviar</string>
+
+
+
+</resources>
